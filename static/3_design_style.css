@@ -66,6 +66,10 @@
     padding: 5px;
     margin-top: 5px;
 }
+.visit-URL_font_style > a {
+    text-decoration: none;
+    color: #9faadf;
+}
 .red_square {
     background-color: #f0aeae;
     color: white;
