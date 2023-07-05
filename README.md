@@ -10,7 +10,9 @@
 
 <br>
 <br>
+
 ## 활동내용
+
 > [DAY 1](https://julia8024.github.io/mogakco_html_css/DAY_1/DAY_1.html) : 나의 첫 HTML 파일 만들기 <br>
 
 > [DAY 2](https://julia8024.github.io/mogakco_html_css/DAY_2/DAY_2.html) : 나만의 위키 만들기 (html, css) <br>
