@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 85px 1fr 100px;
+    height: 100%;
+    grid-template-areas:
+    "side header"
+    "side main"
+    "foot foot"
+}
+.header {
+    grid-area: header;
+    background-color: #F6F6F6;
+    padding: 10px;
+}
+.side {
+    grid-area: side;
+    background-color: #F6F6F6;
+    padding: 30px;
+}
+.main {
+    grid-area: main;
+    background-color: white;
+    border: 2px solid #CDCDCD;
+    padding: 30px;
+}
+.foot {
+    grid-area: foot;
+    background-color: #F6F6F6;
+}
+.linked {
+    color: #1F3DF3;
+    text-decoration: underline;
+}
+.line {
+    border: 2px solid #CDCDCD;
+}
+.col_b {
+    color: #1F3DF3;
+}
+.box {
+    background-color: #F6F6F6;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+}

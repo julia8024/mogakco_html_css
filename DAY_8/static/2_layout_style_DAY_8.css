@@ -1,0 +1,183 @@
+/* 홈페이지 배경 (격자 배경) */
+.grid_background {
+    background-color: #a3a3a3;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+/* 북 커버 (하늘색 배경) */
+.bookcover {
+    background-color: #B4BADA;
+    border-radius: 10px;
+    border: 1px solid #6d7085;
+    
+    width: 950px;
+    height: 650px;
+
+    margin: 50px auto;
+    position: relative;
+}
+/* 북 커버 안쪽 도트 (흰색 점선) */
+.bookdot {
+    border: 3px dashed white;
+    border-radius: 10px;
+    padding: 15px;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+/* 북 도트 안쪽 페이지 */
+.page {
+    background-color: #eeeeee;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+    display: flex;
+}
+
+/* 페이지를 크게 3개의 container로 나눔 (column)
+ * 왼쪽 : Left_container (방문자 수와 프로필이 들어갈 공간)
+ * 가운데 : Center_container (홈페이지 제목 & URL, 메인 박스가 들어갈 공간)
+ * 오른쪽 : Right_container (버튼이 들어갈 공간 - 아직 구현 X)
+ */
+
+.Left_container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+/* Left_container 의 흰색 상자 윗부분 (방문자 수) */
+.L_VISIT_box {
+    flex: 0.5;
+    text-align: center;
+}
+.text_box_in_VISIT {
+    flex: 1;
+    font-family: 'NeoDunggeunmo';
+}
+/* Left_container 의 흰색 상자 부분 (프로필) */
+.L_PROFILE_box {
+    flex: 8;
+    display: flex;
+    
+    flex-direction: column;
+}
+.image_box_in_PF { /* 프로필 이미지 */
+    flex: none;
+    margin: 2em;
+}
+.text_box_in_PF { /* 소개글 적는 부분 */
+    flex: 7 1 auto;
+    margin: 2em;
+    margin-top: 0em;
+    font-family: 'KyoboHand';
+    font-size: 12px;
+}
+.my_imfo_in_PF { /* 종 ( 성별 ) */
+    flex: 1 1 auto;
+    margin: 2em;
+    margin-top: 0em;
+    font-family: 'KyoboHand';
+    font-size: 1em;
+}
+
+.Center_container {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Center_container 의 흰색 상자 윗부분 (홈페이지 제목 & URL) */
+.C_TOP_box {
+    flex: 0.5;
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.Title_box_in_TOP {
+    flex: 1 0 auto;
+    padding-top: 5px;
+}
+.URL_box_in_TOP {
+    flex: 0 1 auto;
+}
+/* Center_container 의 흰색 상자 부분 (Updated news & Miniroom) */
+.C_MAIN_box {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+/* Updated news 부분 */
+.updated_box_in_MAIN {
+    flex: none;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.title_in_box { /* Updated news & Miniroom 타이틀 부분에 적용 */
+    font-family: 'KOTRA_BOLD-Bold';
+    color: #9faadf;
+    flex: none;
+    border-bottom: 1px solid #738186;
+}
+/* Updated news 의 게시판 부분 */
+.contents_in_updated {
+    flex: auto;
+    display: flex;
+}
+/* 게시판 부분을 2분할하는 레이아웃 
+ * ( 나뉘는 레이아웃 2개 모두 동일한 레이아웃 스타일 적용 )
+ */
+.board_in_contents {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* 2분할 게시판 중 왼쪽 게시판 */
+.board_list_left {
+    flex: none;
+    margin-top: 2px;
+    font-size: 13px;
+}
+/* 2분할 게시판 중 오른쪽 게시판 */
+.board_list_right {
+    flex: none;
+    margin-top: 2px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed #738186;
+}
+/* 오른쪽 게시판의 한 줄을 2개의 칸으로 나눔 */
+.board_div_2 {
+    flex: 1;
+}
+/* Miniroom 의 내용 부분 */
+.miniroom_box_in_MAIN {
+    flex: 3 1 auto;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.Right_container {
+    flex: 0.4;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 0px;
+}

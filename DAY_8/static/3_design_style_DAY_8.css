@@ -1,0 +1,42 @@
+.box_white {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
+.box_gray {
+    border: 1px solid #738186;
+}
+.color_red {
+    color: #fa8585;
+}
+.color_blue {
+    color: #9faadf;
+}
+.visit-URL_font_style {
+    font-size: small;
+    padding: 5px;
+    margin-top: 5px;
+}
+.red_square {
+    background-color: #f0aeae;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.blue_square {
+    background-color: rgb(150, 164, 238);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.text_align_center {
+    text-align: center;
+}
+.blue_font_neo {
+    font-family: 'NeoDunggeunmo';
+    color: #9faadf;
+}

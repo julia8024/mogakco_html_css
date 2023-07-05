@@ -1,0 +1,108 @@
+.grid_background {
+    background-color: #a3a3a3;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.bookcover {
+    background-color: #B4D0DA;
+    border-radius: 10px;
+    border: 1px solid #738186;
+    
+    width: 950px;
+    height: 650px;
+
+    margin: 50px auto;
+    position: relative;
+}
+.bookdot {
+    border: 3px dashed white;
+    border-radius: 10px;
+    padding: 15px;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.page {
+    background-color: #eeeeee;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+    display: flex;
+}
+.column1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.row1_1 {
+    flex: 0.5;
+    text-align: center;
+}
+.column1_1 {
+    flex: 1;
+}
+.row1_2 {
+    flex: 8;
+}
+
+.column2 {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.row2_1 {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+}
+.column2_1 {
+    flex: 1;
+    flex-direction: column;
+}
+.column2_2 {
+    flex: 1;
+}
+.row2_2 {
+    flex: 8;
+    flex-direction: row;
+}
+
+.column3 {
+    flex: 0.4;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.box_white {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
+.box_gray {
+    border: 1px solid #738186;
+}
+.color_red {
+    color: red;
+}
+.menu_style {
+    font-size: small;
+    padding: 5px;
+}

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BBTreeCR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeCR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font_flower {
+    font-family: 'MapoFlowerIsland';
+}
+.font_light {
+    font-family: 'IBMPlexSansKR-ExtraLight';
+}
+.font_bold {
+    font-family: 'IBMPlexSansKR-Bold';
+}
+.font_style {
+    font-family: 'BBTreeCR';
+    font-size: 20px;
+}
+
+.color_gray {
+    color: #8A877E;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100%;
+    line-height: 150%;
+    grid-template-areas:
+    "side1 header"
+    "side2 main"
+    "foot main"
+}
+.header {
+    grid-area: header;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.side1 {
+    grid-area: side1;
+    background-color: #F7F6F3;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #E1DDD1;
+}
+.side2 {
+    grid-area: side2;
+    background-color: #F7F6F3;
+    padding: 20px;
+}
+.main {
+    grid-area: main;
+    background-color: white;
+}
+.container_in_main {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "m1 m2"
+}
+.m1 {
+    grid-area: m1;
+    margin-right: 15px;
+
+}
+.m2 {
+    grid-area: m2;
+    margin-left: 15px;
+}
+
+.foot {
+    grid-area: foot;
+    background-color: #F7F6F3;
+    border-top: 1px solid #E1DDD1;
+}
+.align_right {
+    float: right;
+}
+.cover {
+    background-color: #E3BBB6;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 200px;
+}
+.graybox {
+    background-color: #EBECED;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.margin {
+    margin: 50px;
+}
+.callout {
+    padding: 15px;
+    background-color: #F9F9FA;
+}

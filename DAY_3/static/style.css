@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '777Newyorkers';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Newyorkers.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font_style {
+    font-family: 'Gaegu', cursive;
+}
+
+.font_godic {
+    font-family: 'S-CoreDream-3Light';
+}
+
+.font_hw {
+    font-family: '777Newyorkers';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 85px 1fr 100px;
+    height: 100%;
+    grid-template-areas:
+    "side header"
+    "side main"
+    "foot foot"
+}
+.header {
+    grid-area: header;
+    background-color: #F6F6F6;
+    padding: 10px;
+}
+.side {
+    grid-area: side;
+    background-color: #F6F6F6;
+    padding: 30px;
+}
+.main {
+    grid-area: main;
+    background-color: white;
+    border: 2px solid #CDCDCD;
+    padding: 30px;
+}
+.foot {
+    grid-area: foot;
+    background-color: #F6F6F6;
+}
+.linked {
+    color: #1F3DF3;
+    text-decoration: underline;
+}
+.line {
+    border: 2px solid #CDCDCD;
+}
+.col_b {
+    color: #1F3DF3;
+}
+.box {
+    background-color: #F6F6F6;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+}

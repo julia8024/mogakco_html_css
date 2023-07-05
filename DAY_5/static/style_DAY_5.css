@@ -1,0 +1,40 @@
+.grid_background {
+    background-color: #a3a3a3;
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.bookcover {
+    background-color: #B4D0DA;
+    border-radius: 10px;
+    border: 1px solid #738186;
+    
+    width: 950px;
+    height: 650px;
+
+    margin: 50px auto;
+    position: relative;
+}
+.bookdot {
+    border: 3px dashed white;
+    width: 920px;
+    height: 620px;
+    border-radius: 10px;
+
+    margin: 12px;
+    position: absolute;
+}
+.page {
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    border-radius: 10px;
+
+    margin: 10px;
+    position: absolute;
+}
