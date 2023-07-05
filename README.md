@@ -5,21 +5,29 @@
 🖥️ 기초 HTML, CSS를 배우고 나만의 웹사이트 만들어보기
 ```
 
+## 활동후기글
+[네이버 블로그 활동후기글 바로가기](https://m.blog.naver.com/julia8024/222258875965)
 
+<br>
+<br>
 ## 활동내용
-> DAY 1 : 나의 첫 HTML 파일 만들기 <br>
-> DAY 2 : 나만의 위키 만들기 (html, css) <br>
-> DAY 3 : DAY 2의 CSS 업그레이드 <br>
-> DAY 4 : HTML, CSS 개념 복습하기 -> 노션 클론코딩 <br>
-> DAY 5 : 미니홈피 기본 레이아웃 만들기 <br>
-> DAY 6 : 미니홈피 프로젝트 2 - 홈 화면 만들기 (1) <br>
-> DAY 7 : 미니홈피 프로젝트 3 - 홈 화면 만들기 (2) <br>
-> DAY 8 : 미니홈피 프로젝트 css 파일 분리하기 <br>
-> DAY 9 : 미니홈피 프로젝트 4 - 홈 화면 완성하기 <br>
-> DAY 10 : 미니홈피 프로젝트 5 - 사진첩 만들기 <br>
-> DAY 11 : 미니홈피 프로젝트 6 - 다이어리 만들기 (1) <br>
-> DAY 12 : 미니홈피 프로젝트 7 - 다이어리 만들기 (2) <br>
-> DAY 13 : 미니홈피 프로젝트 8 - 방명록 만들기 <br>
+> [DAY 1](https://julia8024.github.io/mogakco_html_css/DAY_1/DAY_1.html) : 나의 첫 HTML 파일 만들기 <br>
+
+> [DAY 2](https://julia8024.github.io/mogakco_html_css/DAY_2/DAY_2.html) : 나만의 위키 만들기 (html, css) <br>
+
+> [DAY 3](https://julia8024.github.io/mogakco_html_css/DAY_3/DAY_3.html) : DAY 2의 CSS 업그레이드 <br>
+
+> [DAY 4](https://julia8024.github.io/mogakco_html_css/DAY_4/DAY_4.html) : HTML, CSS 개념 복습하기 -> 노션 클론코딩 <br>
+
+> DAY 5 - 13 : 미니 홈피 프로젝트
 > DAY 14 : Github 프로필 만들기 <br>
 > DAY 15 : Github로 내 미니홈피 호스팅하기 <br>
+[2021-Sehee-mini-homepage](https://julia8024.github.io/mogakco_html_css/2021-Sehee-mini-homepage/home.html)
+
+![homepage](/_image/mini-homepage_image.png)
+
+![Certificate](/_image/certificate.PNG)
+
+
+
 
