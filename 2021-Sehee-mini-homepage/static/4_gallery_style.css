@@ -1,0 +1,47 @@
+/* 사진첩의 Center_container 의 흰색 상자 부분 */
+.C_MAIN_box_in_photo_gallery {
+    flex: 8;
+    position: relative;
+}
+/* 사진첩 레이아웃 (스크롤을 위해 영역 지정) */
+.gallery_box_in_MAIN {
+    position: absolute;
+    top: 1em;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    /* 스크롤 자동 생성 */
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 사진첩을 게시글 단위로 묶어 레이아웃 정의 */
+.post_in_gallery {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+}
+/* 게시글의 제목 */
+.title_box_in_post {
+    flex: none;
+    padding: 7px;
+    padding-left: 15px;
+    background-color: #e0e0e0;
+    font-size: small;
+    font-family: 'KyoboHand';
+}
+/* 게시글의 이미지 */
+.image_box_in_post {
+    flex: auto;
+    margin: 15px;
+    margin-bottom: 5px;
+}
+/* 게시글의 텍스트 ( 내용 ) */
+.text_box_in_post {
+    flex: none;
+    margin: 15px;
+    margin-top: 5px;
+    margin-bottom: 2em;
+    font-size: small;
+    font-family: 'KyoboHand';
+}
