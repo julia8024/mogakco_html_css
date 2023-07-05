@@ -29,7 +29,7 @@
 > DAY 15 : Github로 내 미니홈피 호스팅하기 <br>
 [2021-Sehee-mini-homepage](https://julia8024.github.io/mogakco_html_css/2021-Sehee-mini-homepage/home.html)
 
-![homepage](/_image/mini-homepage_image.png)
+![homepage](/_image/homepage_image.png)
 
 ![Certificate](/_image/certificate.PNG)
 
